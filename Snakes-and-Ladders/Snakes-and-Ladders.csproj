@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Welcome_Page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,13 +70,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Welcome_Image.resx">
       <DependentUpon>Welcome_Image.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +88,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game Image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snakes-and-Ladders Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan_Blue_Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b82a3155be62bb202981e3bf5649bb87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eo_circle_orange_blank.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-clipart-70.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

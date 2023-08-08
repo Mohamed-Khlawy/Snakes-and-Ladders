@@ -14,11 +14,6 @@ namespace Snakes_and_Ladders
     {
         public Welcome_Page()
         {
-            //Task.Delay(1000).ContinueWith(_ =>
-            //{
-            //    this.BackgroundImage = null;
-            //    InitializeComponent();
-            //}, TaskScheduler.FromCurrentSynchronizationContext());
             InitializeComponent();
         }
 

@@ -14,8 +14,6 @@ namespace Snakes_and_Ladders
     {
         public Welcome_Image()
         {
-            this.BackgroundImage = System.Drawing.Image.FromFile
-                (@"C:\Users\Lenovo\Desktop\snakes-and-ladders-master-pc-full-version.jpg");
             Task.Delay(2000).ContinueWith(_ =>
             {
                 Welcome_Page welcome_Page = new Welcome_Page();
