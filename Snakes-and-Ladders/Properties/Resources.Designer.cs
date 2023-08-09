@@ -63,9 +63,9 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b82a3155be62bb202981e3bf5649bb87 {
+        internal static System.Drawing.Bitmap Blue {
             get {
-                object obj = ResourceManager.GetObject("b82a3155be62bb202981e3bf5649bb87", resourceCulture);
+                object obj = ResourceManager.GetObject("Blue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap circle_clipart_70 {
+        internal static System.Drawing.Bitmap Green {
             get {
-                object obj = ResourceManager.GetObject("circle-clipart-70", resourceCulture);
+                object obj = ResourceManager.GetObject("Green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Eo_circle_orange_blank_svg {
+        internal static System.Drawing.Bitmap Orange {
             get {
-                object obj = ResourceManager.GetObject("Eo_circle_orange_blank.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("Orange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pan_Blue_Circle {
+        internal static System.Drawing.Bitmap Purple {
             get {
-                object obj = ResourceManager.GetObject("Pan_Blue_Circle", resourceCulture);
+                object obj = ResourceManager.GetObject("Purple", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Red_Circle {
+        internal static System.Drawing.Bitmap Red {
             get {
-                object obj = ResourceManager.GetObject("Red-Circle", resourceCulture);
+                object obj = ResourceManager.GetObject("Red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

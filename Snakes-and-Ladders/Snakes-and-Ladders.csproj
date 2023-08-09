@@ -96,19 +96,19 @@
     <None Include="Resources\Snakes-and-Ladders Image.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Pan_Blue_Circle.png" />
+    <None Include="Resources\Blue.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b82a3155be62bb202981e3bf5649bb87.png" />
+    <None Include="Resources\Purple.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Red-Circle.png" />
+    <None Include="Resources\Red.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Eo_circle_orange_blank.svg.png" />
+    <None Include="Resources\Orange.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\circle-clipart-70.png" />
+    <None Include="Resources\Green.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
