@@ -43,67 +43,67 @@
             this.Close = new System.Windows.Forms.Button();
             this.Start = new System.Windows.Forms.Button();
             this.NamesAndMarks_Panel = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.Results_Panel = new System.Windows.Forms.Panel();
-            this.Player1_Panel = new System.Windows.Forms.Panel();
-            this.Marks1 = new System.Windows.Forms.ComboBox();
-            this.txt_Player1 = new System.Windows.Forms.TextBox();
-            this.lbl_Player1 = new System.Windows.Forms.Label();
-            this.Player2_Panel = new System.Windows.Forms.Panel();
-            this.Marks2 = new System.Windows.Forms.ComboBox();
-            this.txt_Player2 = new System.Windows.Forms.TextBox();
-            this.lbl_Player2 = new System.Windows.Forms.Label();
-            this.Player3_Panel = new System.Windows.Forms.Panel();
-            this.Marks3 = new System.Windows.Forms.ComboBox();
-            this.lbl_Player3 = new System.Windows.Forms.Label();
-            this.txt_Player3 = new System.Windows.Forms.TextBox();
-            this.Player4_Panel = new System.Windows.Forms.Panel();
-            this.Marks4 = new System.Windows.Forms.ComboBox();
-            this.txt_Player4 = new System.Windows.Forms.TextBox();
-            this.lbl_Player4 = new System.Windows.Forms.Label();
             this.Player5_Panel = new System.Windows.Forms.Panel();
             this.Marks5 = new System.Windows.Forms.ComboBox();
             this.lbl_Player5 = new System.Windows.Forms.Label();
             this.txt_Player5 = new System.Windows.Forms.TextBox();
+            this.Player4_Panel = new System.Windows.Forms.Panel();
+            this.Marks4 = new System.Windows.Forms.ComboBox();
+            this.txt_Player4 = new System.Windows.Forms.TextBox();
+            this.lbl_Player4 = new System.Windows.Forms.Label();
+            this.Player3_Panel = new System.Windows.Forms.Panel();
+            this.Marks3 = new System.Windows.Forms.ComboBox();
+            this.lbl_Player3 = new System.Windows.Forms.Label();
+            this.txt_Player3 = new System.Windows.Forms.TextBox();
+            this.Player2_Panel = new System.Windows.Forms.Panel();
+            this.Marks2 = new System.Windows.Forms.ComboBox();
+            this.lbl_Player2 = new System.Windows.Forms.Label();
+            this.txt_Player2 = new System.Windows.Forms.TextBox();
+            this.Player1_Panel = new System.Windows.Forms.Panel();
+            this.Marks1 = new System.Windows.Forms.ComboBox();
+            this.txt_Player1 = new System.Windows.Forms.TextBox();
+            this.lbl_Player1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.Results_Panel = new System.Windows.Forms.Panel();
             this.Player1_Results = new System.Windows.Forms.Panel();
             this.Player1_Mark = new System.Windows.Forms.PictureBox();
             this.Player1_Name = new System.Windows.Forms.Label();
             this.Player1_Details = new System.Windows.Forms.Label();
-            this.Player2_Results = new System.Windows.Forms.Panel();
-            this.Player2_Mark = new System.Windows.Forms.PictureBox();
-            this.Player2_Name = new System.Windows.Forms.Label();
-            this.Player2_Details = new System.Windows.Forms.Label();
-            this.Player3_Results = new System.Windows.Forms.Panel();
-            this.Player3_Mark = new System.Windows.Forms.PictureBox();
-            this.Player3_Name = new System.Windows.Forms.Label();
-            this.Player3_Details = new System.Windows.Forms.Label();
-            this.Player4_Results = new System.Windows.Forms.Panel();
-            this.Player4_Mark = new System.Windows.Forms.PictureBox();
-            this.Player4_Name = new System.Windows.Forms.Label();
-            this.Player4_Details = new System.Windows.Forms.Label();
             this.Player5_Results = new System.Windows.Forms.Panel();
             this.Player5_Mark = new System.Windows.Forms.PictureBox();
             this.Player5_Name = new System.Windows.Forms.Label();
             this.Player5_Details = new System.Windows.Forms.Label();
+            this.Player4_Results = new System.Windows.Forms.Panel();
+            this.Player4_Mark = new System.Windows.Forms.PictureBox();
+            this.Player4_Name = new System.Windows.Forms.Label();
+            this.Player4_Details = new System.Windows.Forms.Label();
+            this.Player3_Results = new System.Windows.Forms.Panel();
+            this.Player3_Mark = new System.Windows.Forms.PictureBox();
+            this.Player3_Name = new System.Windows.Forms.Label();
+            this.Player3_Details = new System.Windows.Forms.Label();
+            this.Player2_Results = new System.Windows.Forms.Panel();
+            this.Player2_Mark = new System.Windows.Forms.PictureBox();
+            this.Player2_Name = new System.Windows.Forms.Label();
+            this.Player2_Details = new System.Windows.Forms.Label();
             this.NumberOfPlayers_Panel.SuspendLayout();
             this.NamesAndMarks_Panel.SuspendLayout();
-            this.Results_Panel.SuspendLayout();
-            this.Player1_Panel.SuspendLayout();
-            this.Player2_Panel.SuspendLayout();
-            this.Player3_Panel.SuspendLayout();
-            this.Player4_Panel.SuspendLayout();
             this.Player5_Panel.SuspendLayout();
+            this.Player4_Panel.SuspendLayout();
+            this.Player3_Panel.SuspendLayout();
+            this.Player2_Panel.SuspendLayout();
+            this.Player1_Panel.SuspendLayout();
+            this.Results_Panel.SuspendLayout();
             this.Player1_Results.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).BeginInit();
-            this.Player2_Results.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).BeginInit();
-            this.Player3_Results.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).BeginInit();
-            this.Player4_Results.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).BeginInit();
             this.Player5_Results.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).BeginInit();
+            this.Player4_Results.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).BeginInit();
+            this.Player3_Results.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).BeginInit();
+            this.Player2_Results.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -265,136 +265,101 @@
             this.NamesAndMarks_Panel.Size = new System.Drawing.Size(598, 347);
             this.NamesAndMarks_Panel.TabIndex = 39;
             // 
-            // label8
+            // Player5_Panel
             // 
-            this.label8.Font = new System.Drawing.Font("Tahoma", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(148, 159);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(277, 85);
-            this.label8.TabIndex = 40;
-            this.label8.Text = "Choose Number of Players";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Player5_Panel.Controls.Add(this.Marks5);
+            this.Player5_Panel.Controls.Add(this.lbl_Player5);
+            this.Player5_Panel.Controls.Add(this.txt_Player5);
+            this.Player5_Panel.Location = new System.Drawing.Point(3, 280);
+            this.Player5_Panel.Name = "Player5_Panel";
+            this.Player5_Panel.Size = new System.Drawing.Size(595, 55);
+            this.Player5_Panel.TabIndex = 43;
             // 
-            // label9
+            // Marks5
             // 
-            this.label9.Font = new System.Drawing.Font("Tahoma", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(740, 159);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(300, 85);
-            this.label9.TabIndex = 41;
-            this.label9.Text = "Enter The Names and Marks";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Results_Panel
-            // 
-            this.Results_Panel.Controls.Add(this.Player1_Results);
-            this.Results_Panel.Controls.Add(this.Player5_Results);
-            this.Results_Panel.Controls.Add(this.Player4_Results);
-            this.Results_Panel.Controls.Add(this.Player3_Results);
-            this.Results_Panel.Controls.Add(this.Player2_Results);
-            this.Results_Panel.Location = new System.Drawing.Point(12, 396);
-            this.Results_Panel.Name = "Results_Panel";
-            this.Results_Panel.Size = new System.Drawing.Size(536, 322);
-            this.Results_Panel.TabIndex = 42;
-            // 
-            // Player1_Panel
-            // 
-            this.Player1_Panel.Controls.Add(this.Marks1);
-            this.Player1_Panel.Controls.Add(this.txt_Player1);
-            this.Player1_Panel.Controls.Add(this.lbl_Player1);
-            this.Player1_Panel.Location = new System.Drawing.Point(3, 12);
-            this.Player1_Panel.Name = "Player1_Panel";
-            this.Player1_Panel.Size = new System.Drawing.Size(595, 55);
-            this.Player1_Panel.TabIndex = 43;
-            // 
-            // Marks1
-            // 
-            this.Marks1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Marks1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Marks1.DropDownWidth = 200;
-            this.Marks1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Marks1.FormattingEnabled = true;
-            this.Marks1.ItemHeight = 21;
-            this.Marks1.Items.AddRange(new object[] {
+            this.Marks5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Marks5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marks5.FormattingEnabled = true;
+            this.Marks5.Items.AddRange(new object[] {
             "Red",
             "Green",
             "Blue",
             "Purple",
             "Orange"});
-            this.Marks1.Location = new System.Drawing.Point(414, 14);
-            this.Marks1.Name = "Marks1";
-            this.Marks1.Size = new System.Drawing.Size(178, 29);
-            this.Marks1.TabIndex = 51;
-            this.Marks1.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
+            this.Marks5.Location = new System.Drawing.Point(414, 20);
+            this.Marks5.Name = "Marks5";
+            this.Marks5.Size = new System.Drawing.Size(178, 29);
+            this.Marks5.TabIndex = 52;
+            this.Marks5.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
             // 
-            // txt_Player1
+            // lbl_Player5
             // 
-            this.txt_Player1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txt_Player1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Player1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txt_Player1.Location = new System.Drawing.Point(208, 7);
-            this.txt_Player1.Name = "txt_Player1";
-            this.txt_Player1.Size = new System.Drawing.Size(190, 38);
-            this.txt_Player1.TabIndex = 50;
+            this.lbl_Player5.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Player5.ForeColor = System.Drawing.Color.White;
+            this.lbl_Player5.Location = new System.Drawing.Point(11, 13);
+            this.lbl_Player5.Name = "lbl_Player5";
+            this.lbl_Player5.Size = new System.Drawing.Size(102, 29);
+            this.lbl_Player5.TabIndex = 50;
+            this.lbl_Player5.Text = "Player5";
             // 
-            // lbl_Player1
+            // txt_Player5
             // 
-            this.lbl_Player1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Player1.ForeColor = System.Drawing.Color.White;
-            this.lbl_Player1.Location = new System.Drawing.Point(11, 7);
-            this.lbl_Player1.Name = "lbl_Player1";
-            this.lbl_Player1.Size = new System.Drawing.Size(102, 29);
-            this.lbl_Player1.TabIndex = 49;
-            this.lbl_Player1.Text = "Player1";
+            this.txt_Player5.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Player5.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Player5.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txt_Player5.Location = new System.Drawing.Point(208, 13);
+            this.txt_Player5.Name = "txt_Player5";
+            this.txt_Player5.Size = new System.Drawing.Size(190, 38);
+            this.txt_Player5.TabIndex = 51;
+            this.txt_Player5.TextChanged += new System.EventHandler(this.Txt_TextChanged);
             // 
-            // Player2_Panel
+            // Player4_Panel
             // 
-            this.Player2_Panel.Controls.Add(this.Marks2);
-            this.Player2_Panel.Controls.Add(this.lbl_Player2);
-            this.Player2_Panel.Controls.Add(this.txt_Player2);
-            this.Player2_Panel.Location = new System.Drawing.Point(3, 73);
-            this.Player2_Panel.Name = "Player2_Panel";
-            this.Player2_Panel.Size = new System.Drawing.Size(595, 55);
-            this.Player2_Panel.TabIndex = 43;
+            this.Player4_Panel.Controls.Add(this.Marks4);
+            this.Player4_Panel.Controls.Add(this.txt_Player4);
+            this.Player4_Panel.Controls.Add(this.lbl_Player4);
+            this.Player4_Panel.Location = new System.Drawing.Point(3, 209);
+            this.Player4_Panel.Name = "Player4_Panel";
+            this.Player4_Panel.Size = new System.Drawing.Size(595, 55);
+            this.Player4_Panel.TabIndex = 43;
             // 
-            // Marks2
+            // Marks4
             // 
-            this.Marks2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Marks2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Marks2.FormattingEnabled = true;
-            this.Marks2.Items.AddRange(new object[] {
+            this.Marks4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Marks4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marks4.FormattingEnabled = true;
+            this.Marks4.Items.AddRange(new object[] {
             "Red",
             "Green",
             "Blue",
             "Purple",
             "Orange"});
-            this.Marks2.Location = new System.Drawing.Point(414, 19);
-            this.Marks2.Name = "Marks2";
-            this.Marks2.Size = new System.Drawing.Size(178, 29);
-            this.Marks2.TabIndex = 55;
-            this.Marks2.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
+            this.Marks4.Location = new System.Drawing.Point(414, 25);
+            this.Marks4.Name = "Marks4";
+            this.Marks4.Size = new System.Drawing.Size(178, 29);
+            this.Marks4.TabIndex = 53;
+            this.Marks4.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
             // 
-            // txt_Player2
+            // txt_Player4
             // 
-            this.txt_Player2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txt_Player2.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Player2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txt_Player2.Location = new System.Drawing.Point(208, 12);
-            this.txt_Player2.Name = "txt_Player2";
-            this.txt_Player2.Size = new System.Drawing.Size(190, 38);
-            this.txt_Player2.TabIndex = 54;
+            this.txt_Player4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Player4.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Player4.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txt_Player4.Location = new System.Drawing.Point(208, 18);
+            this.txt_Player4.Name = "txt_Player4";
+            this.txt_Player4.Size = new System.Drawing.Size(190, 38);
+            this.txt_Player4.TabIndex = 52;
+            this.txt_Player4.TextChanged += new System.EventHandler(this.Txt_TextChanged);
             // 
-            // lbl_Player2
+            // lbl_Player4
             // 
-            this.lbl_Player2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Player2.ForeColor = System.Drawing.Color.White;
-            this.lbl_Player2.Location = new System.Drawing.Point(11, 12);
-            this.lbl_Player2.Name = "lbl_Player2";
-            this.lbl_Player2.Size = new System.Drawing.Size(102, 29);
-            this.lbl_Player2.TabIndex = 53;
-            this.lbl_Player2.Text = "Player2";
+            this.lbl_Player4.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Player4.ForeColor = System.Drawing.Color.White;
+            this.lbl_Player4.Location = new System.Drawing.Point(11, 18);
+            this.lbl_Player4.Name = "lbl_Player4";
+            this.lbl_Player4.Size = new System.Drawing.Size(102, 29);
+            this.lbl_Player4.TabIndex = 51;
+            this.lbl_Player4.Text = "Player4";
             // 
             // Player3_Panel
             // 
@@ -442,100 +407,140 @@
             this.txt_Player3.Name = "txt_Player3";
             this.txt_Player3.Size = new System.Drawing.Size(190, 38);
             this.txt_Player3.TabIndex = 53;
+            this.txt_Player3.TextChanged += new System.EventHandler(this.Txt_TextChanged);
             // 
-            // Player4_Panel
+            // Player2_Panel
             // 
-            this.Player4_Panel.Controls.Add(this.Marks4);
-            this.Player4_Panel.Controls.Add(this.txt_Player4);
-            this.Player4_Panel.Controls.Add(this.lbl_Player4);
-            this.Player4_Panel.Location = new System.Drawing.Point(3, 209);
-            this.Player4_Panel.Name = "Player4_Panel";
-            this.Player4_Panel.Size = new System.Drawing.Size(595, 55);
-            this.Player4_Panel.TabIndex = 43;
+            this.Player2_Panel.Controls.Add(this.Marks2);
+            this.Player2_Panel.Controls.Add(this.lbl_Player2);
+            this.Player2_Panel.Controls.Add(this.txt_Player2);
+            this.Player2_Panel.Location = new System.Drawing.Point(3, 73);
+            this.Player2_Panel.Name = "Player2_Panel";
+            this.Player2_Panel.Size = new System.Drawing.Size(595, 55);
+            this.Player2_Panel.TabIndex = 43;
             // 
-            // Marks4
+            // Marks2
             // 
-            this.Marks4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Marks4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Marks4.FormattingEnabled = true;
-            this.Marks4.Items.AddRange(new object[] {
+            this.Marks2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Marks2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marks2.FormattingEnabled = true;
+            this.Marks2.Items.AddRange(new object[] {
             "Red",
             "Green",
             "Blue",
             "Purple",
             "Orange"});
-            this.Marks4.Location = new System.Drawing.Point(414, 25);
-            this.Marks4.Name = "Marks4";
-            this.Marks4.Size = new System.Drawing.Size(178, 29);
-            this.Marks4.TabIndex = 53;
-            this.Marks4.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
+            this.Marks2.Location = new System.Drawing.Point(414, 19);
+            this.Marks2.Name = "Marks2";
+            this.Marks2.Size = new System.Drawing.Size(178, 29);
+            this.Marks2.TabIndex = 55;
+            this.Marks2.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
             // 
-            // txt_Player4
+            // lbl_Player2
             // 
-            this.txt_Player4.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txt_Player4.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Player4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txt_Player4.Location = new System.Drawing.Point(208, 18);
-            this.txt_Player4.Name = "txt_Player4";
-            this.txt_Player4.Size = new System.Drawing.Size(190, 38);
-            this.txt_Player4.TabIndex = 52;
+            this.lbl_Player2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Player2.ForeColor = System.Drawing.Color.White;
+            this.lbl_Player2.Location = new System.Drawing.Point(11, 12);
+            this.lbl_Player2.Name = "lbl_Player2";
+            this.lbl_Player2.Size = new System.Drawing.Size(102, 29);
+            this.lbl_Player2.TabIndex = 53;
+            this.lbl_Player2.Text = "Player2";
             // 
-            // lbl_Player4
+            // txt_Player2
             // 
-            this.lbl_Player4.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Player4.ForeColor = System.Drawing.Color.White;
-            this.lbl_Player4.Location = new System.Drawing.Point(11, 18);
-            this.lbl_Player4.Name = "lbl_Player4";
-            this.lbl_Player4.Size = new System.Drawing.Size(102, 29);
-            this.lbl_Player4.TabIndex = 51;
-            this.lbl_Player4.Text = "Player4";
+            this.txt_Player2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Player2.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Player2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txt_Player2.Location = new System.Drawing.Point(208, 12);
+            this.txt_Player2.Name = "txt_Player2";
+            this.txt_Player2.Size = new System.Drawing.Size(190, 38);
+            this.txt_Player2.TabIndex = 54;
+            this.txt_Player2.TextChanged += new System.EventHandler(this.Txt_TextChanged);
             // 
-            // Player5_Panel
+            // Player1_Panel
             // 
-            this.Player5_Panel.Controls.Add(this.Marks5);
-            this.Player5_Panel.Controls.Add(this.lbl_Player5);
-            this.Player5_Panel.Controls.Add(this.txt_Player5);
-            this.Player5_Panel.Location = new System.Drawing.Point(3, 280);
-            this.Player5_Panel.Name = "Player5_Panel";
-            this.Player5_Panel.Size = new System.Drawing.Size(595, 55);
-            this.Player5_Panel.TabIndex = 43;
+            this.Player1_Panel.Controls.Add(this.Marks1);
+            this.Player1_Panel.Controls.Add(this.txt_Player1);
+            this.Player1_Panel.Controls.Add(this.lbl_Player1);
+            this.Player1_Panel.Location = new System.Drawing.Point(3, 12);
+            this.Player1_Panel.Name = "Player1_Panel";
+            this.Player1_Panel.Size = new System.Drawing.Size(595, 55);
+            this.Player1_Panel.TabIndex = 43;
             // 
-            // Marks5
+            // Marks1
             // 
-            this.Marks5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Marks5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Marks5.FormattingEnabled = true;
-            this.Marks5.Items.AddRange(new object[] {
+            this.Marks1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Marks1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Marks1.DropDownWidth = 200;
+            this.Marks1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marks1.FormattingEnabled = true;
+            this.Marks1.ItemHeight = 21;
+            this.Marks1.Items.AddRange(new object[] {
             "Red",
             "Green",
             "Blue",
             "Purple",
             "Orange"});
-            this.Marks5.Location = new System.Drawing.Point(414, 20);
-            this.Marks5.Name = "Marks5";
-            this.Marks5.Size = new System.Drawing.Size(178, 29);
-            this.Marks5.TabIndex = 52;
-            this.Marks5.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
+            this.Marks1.Location = new System.Drawing.Point(414, 14);
+            this.Marks1.Name = "Marks1";
+            this.Marks1.Size = new System.Drawing.Size(178, 29);
+            this.Marks1.TabIndex = 51;
+            this.Marks1.SelectedIndexChanged += new System.EventHandler(this.SelectedIndexChanged);
             // 
-            // lbl_Player5
+            // txt_Player1
             // 
-            this.lbl_Player5.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Player5.ForeColor = System.Drawing.Color.White;
-            this.lbl_Player5.Location = new System.Drawing.Point(11, 13);
-            this.lbl_Player5.Name = "lbl_Player5";
-            this.lbl_Player5.Size = new System.Drawing.Size(102, 29);
-            this.lbl_Player5.TabIndex = 50;
-            this.lbl_Player5.Text = "Player5";
+            this.txt_Player1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Player1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Player1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txt_Player1.Location = new System.Drawing.Point(208, 7);
+            this.txt_Player1.Name = "txt_Player1";
+            this.txt_Player1.Size = new System.Drawing.Size(190, 38);
+            this.txt_Player1.TabIndex = 50;
+            this.txt_Player1.TextChanged += new System.EventHandler(this.Txt_TextChanged);
             // 
-            // txt_Player5
+            // lbl_Player1
             // 
-            this.txt_Player5.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txt_Player5.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Player5.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txt_Player5.Location = new System.Drawing.Point(208, 13);
-            this.txt_Player5.Name = "txt_Player5";
-            this.txt_Player5.Size = new System.Drawing.Size(190, 38);
-            this.txt_Player5.TabIndex = 51;
+            this.lbl_Player1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Player1.ForeColor = System.Drawing.Color.White;
+            this.lbl_Player1.Location = new System.Drawing.Point(11, 7);
+            this.lbl_Player1.Name = "lbl_Player1";
+            this.lbl_Player1.Size = new System.Drawing.Size(102, 29);
+            this.lbl_Player1.TabIndex = 49;
+            this.lbl_Player1.Text = "Player1";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Tahoma", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(148, 159);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(277, 85);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Choose Number of Players";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Tahoma", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(740, 159);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(300, 85);
+            this.label9.TabIndex = 41;
+            this.label9.Text = "Enter The Names and Marks";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Results_Panel
+            // 
+            this.Results_Panel.Controls.Add(this.Player1_Results);
+            this.Results_Panel.Controls.Add(this.Player5_Results);
+            this.Results_Panel.Controls.Add(this.Player4_Results);
+            this.Results_Panel.Controls.Add(this.Player3_Results);
+            this.Results_Panel.Controls.Add(this.Player2_Results);
+            this.Results_Panel.Location = new System.Drawing.Point(12, 396);
+            this.Results_Panel.Name = "Results_Panel";
+            this.Results_Panel.Size = new System.Drawing.Size(536, 322);
+            this.Results_Panel.TabIndex = 42;
             // 
             // Player1_Results
             // 
@@ -561,9 +566,9 @@
             // 
             this.Player1_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Player1_Name.ForeColor = System.Drawing.Color.White;
-            this.Player1_Name.Location = new System.Drawing.Point(250, 10);
+            this.Player1_Name.Location = new System.Drawing.Point(217, 10);
             this.Player1_Name.Name = "Player1_Name";
-            this.Player1_Name.Size = new System.Drawing.Size(102, 29);
+            this.Player1_Name.Size = new System.Drawing.Size(149, 29);
             this.Player1_Name.TabIndex = 58;
             this.Player1_Name.Text = "Player1";
             // 
@@ -576,126 +581,6 @@
             this.Player1_Details.Size = new System.Drawing.Size(206, 29);
             this.Player1_Details.TabIndex = 57;
             this.Player1_Details.Text = "Player1 Details :";
-            // 
-            // Player2_Results
-            // 
-            this.Player2_Results.Controls.Add(this.Player2_Mark);
-            this.Player2_Results.Controls.Add(this.Player2_Name);
-            this.Player2_Results.Controls.Add(this.Player2_Details);
-            this.Player2_Results.Location = new System.Drawing.Point(0, 70);
-            this.Player2_Results.Name = "Player2_Results";
-            this.Player2_Results.Size = new System.Drawing.Size(536, 55);
-            this.Player2_Results.TabIndex = 44;
-            // 
-            // Player2_Mark
-            // 
-            this.Player2_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player2_Mark.Location = new System.Drawing.Point(454, 3);
-            this.Player2_Mark.Name = "Player2_Mark";
-            this.Player2_Mark.Size = new System.Drawing.Size(61, 50);
-            this.Player2_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player2_Mark.TabIndex = 60;
-            this.Player2_Mark.TabStop = false;
-            // 
-            // Player2_Name
-            // 
-            this.Player2_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2_Name.ForeColor = System.Drawing.Color.White;
-            this.Player2_Name.Location = new System.Drawing.Point(250, 8);
-            this.Player2_Name.Name = "Player2_Name";
-            this.Player2_Name.Size = new System.Drawing.Size(102, 29);
-            this.Player2_Name.TabIndex = 59;
-            this.Player2_Name.Text = "Player2";
-            // 
-            // Player2_Details
-            // 
-            this.Player2_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2_Details.ForeColor = System.Drawing.Color.White;
-            this.Player2_Details.Location = new System.Drawing.Point(13, 8);
-            this.Player2_Details.Name = "Player2_Details";
-            this.Player2_Details.Size = new System.Drawing.Size(206, 29);
-            this.Player2_Details.TabIndex = 58;
-            this.Player2_Details.Text = "Player2 Details :";
-            // 
-            // Player3_Results
-            // 
-            this.Player3_Results.Controls.Add(this.Player3_Mark);
-            this.Player3_Results.Controls.Add(this.Player3_Name);
-            this.Player3_Results.Controls.Add(this.Player3_Details);
-            this.Player3_Results.Location = new System.Drawing.Point(0, 136);
-            this.Player3_Results.Name = "Player3_Results";
-            this.Player3_Results.Size = new System.Drawing.Size(536, 55);
-            this.Player3_Results.TabIndex = 44;
-            // 
-            // Player3_Mark
-            // 
-            this.Player3_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player3_Mark.Location = new System.Drawing.Point(384, 2);
-            this.Player3_Mark.Name = "Player3_Mark";
-            this.Player3_Mark.Size = new System.Drawing.Size(61, 50);
-            this.Player3_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player3_Mark.TabIndex = 61;
-            this.Player3_Mark.TabStop = false;
-            // 
-            // Player3_Name
-            // 
-            this.Player3_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3_Name.ForeColor = System.Drawing.Color.White;
-            this.Player3_Name.Location = new System.Drawing.Point(250, 13);
-            this.Player3_Name.Name = "Player3_Name";
-            this.Player3_Name.Size = new System.Drawing.Size(102, 29);
-            this.Player3_Name.TabIndex = 60;
-            this.Player3_Name.Text = "Player3";
-            // 
-            // Player3_Details
-            // 
-            this.Player3_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3_Details.ForeColor = System.Drawing.Color.White;
-            this.Player3_Details.Location = new System.Drawing.Point(13, 13);
-            this.Player3_Details.Name = "Player3_Details";
-            this.Player3_Details.Size = new System.Drawing.Size(206, 29);
-            this.Player3_Details.TabIndex = 59;
-            this.Player3_Details.Text = "Player3 Details :";
-            // 
-            // Player4_Results
-            // 
-            this.Player4_Results.Controls.Add(this.Player4_Mark);
-            this.Player4_Results.Controls.Add(this.Player4_Name);
-            this.Player4_Results.Controls.Add(this.Player4_Details);
-            this.Player4_Results.Location = new System.Drawing.Point(0, 206);
-            this.Player4_Results.Name = "Player4_Results";
-            this.Player4_Results.Size = new System.Drawing.Size(536, 55);
-            this.Player4_Results.TabIndex = 44;
-            // 
-            // Player4_Mark
-            // 
-            this.Player4_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player4_Mark.Location = new System.Drawing.Point(454, 3);
-            this.Player4_Mark.Name = "Player4_Mark";
-            this.Player4_Mark.Size = new System.Drawing.Size(61, 50);
-            this.Player4_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player4_Mark.TabIndex = 62;
-            this.Player4_Mark.TabStop = false;
-            // 
-            // Player4_Name
-            // 
-            this.Player4_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4_Name.ForeColor = System.Drawing.Color.White;
-            this.Player4_Name.Location = new System.Drawing.Point(250, 10);
-            this.Player4_Name.Name = "Player4_Name";
-            this.Player4_Name.Size = new System.Drawing.Size(102, 29);
-            this.Player4_Name.TabIndex = 61;
-            this.Player4_Name.Text = "Player4";
-            // 
-            // Player4_Details
-            // 
-            this.Player4_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4_Details.ForeColor = System.Drawing.Color.White;
-            this.Player4_Details.Location = new System.Drawing.Point(13, 10);
-            this.Player4_Details.Name = "Player4_Details";
-            this.Player4_Details.Size = new System.Drawing.Size(206, 29);
-            this.Player4_Details.TabIndex = 60;
-            this.Player4_Details.Text = "Player4 Details :";
             // 
             // Player5_Results
             // 
@@ -721,9 +606,9 @@
             // 
             this.Player5_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Player5_Name.ForeColor = System.Drawing.Color.White;
-            this.Player5_Name.Location = new System.Drawing.Point(250, 15);
+            this.Player5_Name.Location = new System.Drawing.Point(217, 15);
             this.Player5_Name.Name = "Player5_Name";
-            this.Player5_Name.Size = new System.Drawing.Size(102, 29);
+            this.Player5_Name.Size = new System.Drawing.Size(149, 29);
             this.Player5_Name.TabIndex = 62;
             this.Player5_Name.Text = "Player5";
             // 
@@ -736,6 +621,126 @@
             this.Player5_Details.Size = new System.Drawing.Size(206, 29);
             this.Player5_Details.TabIndex = 61;
             this.Player5_Details.Text = "Player5 Details :";
+            // 
+            // Player4_Results
+            // 
+            this.Player4_Results.Controls.Add(this.Player4_Mark);
+            this.Player4_Results.Controls.Add(this.Player4_Name);
+            this.Player4_Results.Controls.Add(this.Player4_Details);
+            this.Player4_Results.Location = new System.Drawing.Point(0, 206);
+            this.Player4_Results.Name = "Player4_Results";
+            this.Player4_Results.Size = new System.Drawing.Size(536, 55);
+            this.Player4_Results.TabIndex = 44;
+            // 
+            // Player4_Mark
+            // 
+            this.Player4_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Player4_Mark.Location = new System.Drawing.Point(454, 3);
+            this.Player4_Mark.Name = "Player4_Mark";
+            this.Player4_Mark.Size = new System.Drawing.Size(61, 50);
+            this.Player4_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Player4_Mark.TabIndex = 62;
+            this.Player4_Mark.TabStop = false;
+            // 
+            // Player4_Name
+            // 
+            this.Player4_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player4_Name.ForeColor = System.Drawing.Color.White;
+            this.Player4_Name.Location = new System.Drawing.Point(217, 10);
+            this.Player4_Name.Name = "Player4_Name";
+            this.Player4_Name.Size = new System.Drawing.Size(149, 29);
+            this.Player4_Name.TabIndex = 61;
+            this.Player4_Name.Text = "Player4";
+            // 
+            // Player4_Details
+            // 
+            this.Player4_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player4_Details.ForeColor = System.Drawing.Color.White;
+            this.Player4_Details.Location = new System.Drawing.Point(13, 10);
+            this.Player4_Details.Name = "Player4_Details";
+            this.Player4_Details.Size = new System.Drawing.Size(206, 29);
+            this.Player4_Details.TabIndex = 60;
+            this.Player4_Details.Text = "Player4 Details :";
+            // 
+            // Player3_Results
+            // 
+            this.Player3_Results.Controls.Add(this.Player3_Mark);
+            this.Player3_Results.Controls.Add(this.Player3_Name);
+            this.Player3_Results.Controls.Add(this.Player3_Details);
+            this.Player3_Results.Location = new System.Drawing.Point(0, 136);
+            this.Player3_Results.Name = "Player3_Results";
+            this.Player3_Results.Size = new System.Drawing.Size(536, 55);
+            this.Player3_Results.TabIndex = 44;
+            // 
+            // Player3_Mark
+            // 
+            this.Player3_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Player3_Mark.Location = new System.Drawing.Point(384, 2);
+            this.Player3_Mark.Name = "Player3_Mark";
+            this.Player3_Mark.Size = new System.Drawing.Size(61, 50);
+            this.Player3_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Player3_Mark.TabIndex = 61;
+            this.Player3_Mark.TabStop = false;
+            // 
+            // Player3_Name
+            // 
+            this.Player3_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player3_Name.ForeColor = System.Drawing.Color.White;
+            this.Player3_Name.Location = new System.Drawing.Point(217, 13);
+            this.Player3_Name.Name = "Player3_Name";
+            this.Player3_Name.Size = new System.Drawing.Size(149, 29);
+            this.Player3_Name.TabIndex = 60;
+            this.Player3_Name.Text = "Player3";
+            // 
+            // Player3_Details
+            // 
+            this.Player3_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player3_Details.ForeColor = System.Drawing.Color.White;
+            this.Player3_Details.Location = new System.Drawing.Point(13, 13);
+            this.Player3_Details.Name = "Player3_Details";
+            this.Player3_Details.Size = new System.Drawing.Size(206, 29);
+            this.Player3_Details.TabIndex = 59;
+            this.Player3_Details.Text = "Player3 Details :";
+            // 
+            // Player2_Results
+            // 
+            this.Player2_Results.Controls.Add(this.Player2_Mark);
+            this.Player2_Results.Controls.Add(this.Player2_Name);
+            this.Player2_Results.Controls.Add(this.Player2_Details);
+            this.Player2_Results.Location = new System.Drawing.Point(0, 70);
+            this.Player2_Results.Name = "Player2_Results";
+            this.Player2_Results.Size = new System.Drawing.Size(536, 55);
+            this.Player2_Results.TabIndex = 44;
+            // 
+            // Player2_Mark
+            // 
+            this.Player2_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Player2_Mark.Location = new System.Drawing.Point(454, 3);
+            this.Player2_Mark.Name = "Player2_Mark";
+            this.Player2_Mark.Size = new System.Drawing.Size(61, 50);
+            this.Player2_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Player2_Mark.TabIndex = 60;
+            this.Player2_Mark.TabStop = false;
+            // 
+            // Player2_Name
+            // 
+            this.Player2_Name.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2_Name.ForeColor = System.Drawing.Color.White;
+            this.Player2_Name.Location = new System.Drawing.Point(217, 8);
+            this.Player2_Name.Name = "Player2_Name";
+            this.Player2_Name.Size = new System.Drawing.Size(149, 29);
+            this.Player2_Name.TabIndex = 59;
+            this.Player2_Name.Text = "Player2";
+            // 
+            // Player2_Details
+            // 
+            this.Player2_Details.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2_Details.ForeColor = System.Drawing.Color.White;
+            this.Player2_Details.Location = new System.Drawing.Point(13, 8);
+            this.Player2_Details.Name = "Player2_Details";
+            this.Player2_Details.Size = new System.Drawing.Size(206, 29);
+            this.Player2_Details.TabIndex = 58;
+            this.Player2_Details.Text = "Player2 Details :";
             // 
             // Welcome_Page
             // 
@@ -763,27 +768,27 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.NumberOfPlayers_Panel.ResumeLayout(false);
             this.NamesAndMarks_Panel.ResumeLayout(false);
-            this.Results_Panel.ResumeLayout(false);
-            this.Player1_Panel.ResumeLayout(false);
-            this.Player1_Panel.PerformLayout();
-            this.Player2_Panel.ResumeLayout(false);
-            this.Player2_Panel.PerformLayout();
-            this.Player3_Panel.ResumeLayout(false);
-            this.Player3_Panel.PerformLayout();
-            this.Player4_Panel.ResumeLayout(false);
-            this.Player4_Panel.PerformLayout();
             this.Player5_Panel.ResumeLayout(false);
             this.Player5_Panel.PerformLayout();
+            this.Player4_Panel.ResumeLayout(false);
+            this.Player4_Panel.PerformLayout();
+            this.Player3_Panel.ResumeLayout(false);
+            this.Player3_Panel.PerformLayout();
+            this.Player2_Panel.ResumeLayout(false);
+            this.Player2_Panel.PerformLayout();
+            this.Player1_Panel.ResumeLayout(false);
+            this.Player1_Panel.PerformLayout();
+            this.Results_Panel.ResumeLayout(false);
             this.Player1_Results.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).EndInit();
-            this.Player2_Results.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).EndInit();
-            this.Player3_Results.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).EndInit();
-            this.Player4_Results.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).EndInit();
             this.Player5_Results.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).EndInit();
+            this.Player4_Results.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).EndInit();
+            this.Player3_Results.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).EndInit();
+            this.Player2_Results.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).EndInit();
             this.ResumeLayout(false);
 
         }
