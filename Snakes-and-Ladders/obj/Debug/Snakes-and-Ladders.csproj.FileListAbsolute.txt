@@ -10,3 +10,4 @@ G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Debug\Snakes-and-Ladd
 G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Debug\Snakes-and-Ladders.pdb
 G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Debug\Snakes_and_Ladders.Welcome_Page.resources
 G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Debug\Snakes_and_Ladders.Welcome_Image.resources
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Debug\Snakes_and_Ladders.Game_Page.resources

@@ -29,6 +29,9 @@ namespace Snakes_and_Ladders
             Results_Panel.Visible = false;
             NamesAndMarks_Panel.Visible = false;
 
+            // UnEnable the Start Button until choose all marks
+            Start.Enabled = false;
+
             // Initialize the 4 Lists defined above
             comboBoxList = new List<ComboBox>
             {
@@ -72,6 +75,9 @@ namespace Snakes_and_Ladders
             // Reset the marks to avoid any wrongs and remark it with new choises
             ResetPlayerMarks_ComboBoxes();
             Results_Panel.Visible = false;
+
+            // UnEnable Start Butoon until choose marks
+            Start.Enabled = false;
 
             // Check which radioButton was checked to know numberOfPlayers
             RadioButton radioButton = (RadioButton)sender;
@@ -130,7 +136,7 @@ namespace Snakes_and_Ladders
                     Results_Panel.Visible = false;
                 }
             }
-            for(int i = 0; i<numberOfPlayers; i++)
+            for (int i = 0; i < numberOfPlayers; i++)
             {
                 // Check if all players choose a mark or not to view the Results Panel or not
                 if (comboBoxList[i].SelectedIndex == -1)
@@ -139,9 +145,10 @@ namespace Snakes_and_Ladders
                 }
             }
 
-            // View the Results panel as all players choose marks
+            // View the Start button and Results panel as all players choose marks
             DisplayResults();
             Results_Panel.Visible = true;
+            Start.Enabled = true;
         }
         private void Txt_TextChanged(object sender, EventArgs e)
         {
@@ -227,6 +234,33 @@ namespace Snakes_and_Ladders
                 if (playerNamesList[i].Text == "")
                     playerNamesList[i].Text = $"Player{i + 1}";
             }
+        }
+        private void Btn_MouseEnter(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.BackColor = Color.Green;
+        }
+        private void Btn_MouseLeave(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.BackColor = Color.LimeGreen;
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            Game_Page game_Page = new Game_Page();
+            game_Page.Show();
+            this.Hide();
+        }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Welcome_Page_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

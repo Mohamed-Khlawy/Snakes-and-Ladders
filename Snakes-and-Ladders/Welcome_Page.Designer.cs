@@ -231,7 +231,7 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.Green;
+            this.Close.BackColor = System.Drawing.Color.LimeGreen;
             this.Close.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Close.ForeColor = System.Drawing.Color.White;
             this.Close.Location = new System.Drawing.Point(927, 749);
@@ -240,6 +240,9 @@
             this.Close.TabIndex = 38;
             this.Close.Text = "Close The App";
             this.Close.UseVisualStyleBackColor = false;
+            this.Close.Click += new System.EventHandler(this.Close_Click);
+            this.Close.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.Close.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // Start
             // 
@@ -252,6 +255,9 @@
             this.Start.TabIndex = 37;
             this.Start.Text = "Start The Game";
             this.Start.UseVisualStyleBackColor = false;
+            this.Start.Click += new System.EventHandler(this.Start_Click);
+            this.Start.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.Start.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // NamesAndMarks_Panel
             // 
@@ -765,6 +771,7 @@
             this.Name = "Welcome_Page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome to Snakes and Ladders";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Welcome_Page_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.NumberOfPlayers_Panel.ResumeLayout(false);
             this.NamesAndMarks_Panel.ResumeLayout(false);
