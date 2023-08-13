@@ -113,6 +113,16 @@ namespace Snakes_and_Ladders.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Snake_and_Ladders_Game_Board {
+            get {
+                object obj = ResourceManager.GetObject("Snake and Ladders Game Board", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Snakes_and_Ladders_Image {
             get {
                 object obj = ResourceManager.GetObject("Snakes-and-Ladders Image", resourceCulture);
