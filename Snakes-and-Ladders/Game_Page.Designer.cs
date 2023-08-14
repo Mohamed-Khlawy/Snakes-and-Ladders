@@ -29,57 +29,62 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game_Page));
-            this.GameBoard = new System.Windows.Forms.PictureBox();
             this.Dice_Panel = new System.Windows.Forms.Panel();
+            this.Dice = new System.Windows.Forms.PictureBox();
             this.btn_Rolling = new System.Windows.Forms.Button();
             this.lbl_Player_Turn = new System.Windows.Forms.Label();
             this.Buttons_Panel = new System.Windows.Forms.Panel();
             this.New = new System.Windows.Forms.Button();
             this.Summary = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
-            this.Player1Name = new System.Windows.Forms.Label();
-            this.Player2Name = new System.Windows.Forms.Label();
-            this.Player3Name = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.lbl3 = new System.Windows.Forms.Label();
-            this.Points_Panel = new System.Windows.Forms.Panel();
-            this.Player5_Square = new System.Windows.Forms.Button();
-            this.Player4_Square = new System.Windows.Forms.Button();
-            this.Player3_Square = new System.Windows.Forms.Button();
-            this.Player2_Square = new System.Windows.Forms.Button();
-            this.Player1_Square = new System.Windows.Forms.Button();
+            this.Squares_Panel = new System.Windows.Forms.Panel();
+            this.Player5_Panel = new System.Windows.Forms.Panel();
+            this.Player5_Square_After = new System.Windows.Forms.Button();
+            this.Player5_Square_Before = new System.Windows.Forms.Button();
             this.lbl5 = new System.Windows.Forms.Label();
-            this.lbl4 = new System.Windows.Forms.Label();
             this.Player5_Mark = new System.Windows.Forms.PictureBox();
+            this.Player5_Name = new System.Windows.Forms.Label();
+            this.Player4_Panel = new System.Windows.Forms.Panel();
+            this.Player4_Square_After = new System.Windows.Forms.Button();
+            this.Player4_Square_Before = new System.Windows.Forms.Button();
+            this.lbl4 = new System.Windows.Forms.Label();
             this.Player4_Mark = new System.Windows.Forms.PictureBox();
-            this.Player5Name = new System.Windows.Forms.Label();
-            this.Player4Name = new System.Windows.Forms.Label();
+            this.Player4_Name = new System.Windows.Forms.Label();
+            this.Player3_Panel = new System.Windows.Forms.Panel();
+            this.Player3_Square_After = new System.Windows.Forms.Button();
+            this.Player3_Square_Before = new System.Windows.Forms.Button();
             this.Player3_Mark = new System.Windows.Forms.PictureBox();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.Player3_Name = new System.Windows.Forms.Label();
+            this.Player2_Panel = new System.Windows.Forms.Panel();
+            this.Player2_Square_After = new System.Windows.Forms.Button();
+            this.Player2_Square_Before = new System.Windows.Forms.Button();
             this.Player2_Mark = new System.Windows.Forms.PictureBox();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.Player2_Name = new System.Windows.Forms.Label();
+            this.Player1_Panel = new System.Windows.Forms.Panel();
+            this.Player1_Square_After = new System.Windows.Forms.Button();
+            this.Player1_Square_Before = new System.Windows.Forms.Button();
             this.Player1_Mark = new System.Windows.Forms.PictureBox();
-            this.Dice = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).BeginInit();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.Player1_Name = new System.Windows.Forms.Label();
+            this.GameBoard = new System.Windows.Forms.PictureBox();
             this.Dice_Panel.SuspendLayout();
-            this.Buttons_Panel.SuspendLayout();
-            this.Points_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dice)).BeginInit();
+            this.Buttons_Panel.SuspendLayout();
+            this.Squares_Panel.SuspendLayout();
+            this.Player5_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).BeginInit();
+            this.Player4_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).BeginInit();
+            this.Player3_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).BeginInit();
+            this.Player2_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).BeginInit();
+            this.Player1_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).BeginInit();
             this.SuspendLayout();
-            // 
-            // GameBoard
-            // 
-            this.GameBoard.Image = global::Snakes_and_Ladders.Properties.Resources.Snake_and_Ladders_Game_Board;
-            this.GameBoard.Location = new System.Drawing.Point(40, 45);
-            this.GameBoard.Name = "GameBoard";
-            this.GameBoard.Size = new System.Drawing.Size(971, 890);
-            this.GameBoard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GameBoard.TabIndex = 2;
-            this.GameBoard.TabStop = false;
             // 
             // Dice_Panel
             // 
@@ -90,6 +95,16 @@
             this.Dice_Panel.Name = "Dice_Panel";
             this.Dice_Panel.Size = new System.Drawing.Size(742, 152);
             this.Dice_Panel.TabIndex = 4;
+            // 
+            // Dice
+            // 
+            this.Dice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Dice.Location = new System.Drawing.Point(74, 33);
+            this.Dice.Name = "Dice";
+            this.Dice.Size = new System.Drawing.Size(106, 85);
+            this.Dice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Dice.TabIndex = 74;
+            this.Dice.TabStop = false;
             // 
             // btn_Rolling
             // 
@@ -102,6 +117,8 @@
             this.btn_Rolling.TabIndex = 35;
             this.btn_Rolling.Text = "Roll The Dice";
             this.btn_Rolling.UseVisualStyleBackColor = false;
+            this.btn_Rolling.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.btn_Rolling.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // lbl_Player_Turn
             // 
@@ -134,6 +151,8 @@
             this.New.TabIndex = 34;
             this.New.Text = "New Game";
             this.New.UseVisualStyleBackColor = false;
+            this.New.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.New.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // Summary
             // 
@@ -146,6 +165,8 @@
             this.Summary.TabIndex = 32;
             this.Summary.Text = "Game Summary";
             this.Summary.UseVisualStyleBackColor = false;
+            this.Summary.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.Summary.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // Close
             // 
@@ -158,253 +179,360 @@
             this.Close.TabIndex = 31;
             this.Close.Text = "Close Game";
             this.Close.UseVisualStyleBackColor = false;
+            this.Close.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.Close.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
-            // Player1Name
+            // Squares_Panel
             // 
-            this.Player1Name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1Name.ForeColor = System.Drawing.Color.White;
-            this.Player1Name.Location = new System.Drawing.Point(26, 36);
-            this.Player1Name.Name = "Player1Name";
-            this.Player1Name.Size = new System.Drawing.Size(212, 50);
-            this.Player1Name.TabIndex = 25;
-            this.Player1Name.Text = "Player1";
+            this.Squares_Panel.Controls.Add(this.Player5_Panel);
+            this.Squares_Panel.Controls.Add(this.Player4_Panel);
+            this.Squares_Panel.Controls.Add(this.Player3_Panel);
+            this.Squares_Panel.Controls.Add(this.Player2_Panel);
+            this.Squares_Panel.Controls.Add(this.Player1_Panel);
+            this.Squares_Panel.Location = new System.Drawing.Point(1038, 203);
+            this.Squares_Panel.Name = "Squares_Panel";
+            this.Squares_Panel.Size = new System.Drawing.Size(742, 470);
+            this.Squares_Panel.TabIndex = 3;
             // 
-            // Player2Name
+            // Player5_Panel
             // 
-            this.Player2Name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2Name.ForeColor = System.Drawing.Color.White;
-            this.Player2Name.Location = new System.Drawing.Point(26, 119);
-            this.Player2Name.Name = "Player2Name";
-            this.Player2Name.Size = new System.Drawing.Size(212, 50);
-            this.Player2Name.TabIndex = 26;
-            this.Player2Name.Text = "Player2";
+            this.Player5_Panel.Controls.Add(this.Player5_Square_After);
+            this.Player5_Panel.Controls.Add(this.Player5_Square_Before);
+            this.Player5_Panel.Controls.Add(this.lbl5);
+            this.Player5_Panel.Controls.Add(this.Player5_Mark);
+            this.Player5_Panel.Controls.Add(this.Player5_Name);
+            this.Player5_Panel.Location = new System.Drawing.Point(3, 383);
+            this.Player5_Panel.Name = "Player5_Panel";
+            this.Player5_Panel.Size = new System.Drawing.Size(735, 70);
+            this.Player5_Panel.TabIndex = 6;
             // 
-            // Player3Name
+            // Player5_Square_After
             // 
-            this.Player3Name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3Name.ForeColor = System.Drawing.Color.White;
-            this.Player3Name.Location = new System.Drawing.Point(26, 202);
-            this.Player3Name.Name = "Player3Name";
-            this.Player3Name.Size = new System.Drawing.Size(212, 50);
-            this.Player3Name.TabIndex = 27;
-            this.Player3Name.Text = "Player3";
+            this.Player5_Square_After.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player5_Square_After.Enabled = false;
+            this.Player5_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player5_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player5_Square_After.Name = "Player5_Square_After";
+            this.Player5_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player5_Square_After.TabIndex = 78;
+            this.Player5_Square_After.UseVisualStyleBackColor = false;
             // 
-            // lbl1
+            // Player5_Square_Before
             // 
-            this.lbl1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.ForeColor = System.Drawing.Color.White;
-            this.lbl1.Location = new System.Drawing.Point(337, 36);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(256, 50);
-            this.lbl1.TabIndex = 28;
-            this.lbl1.Text = "Square Number";
-            // 
-            // lbl2
-            // 
-            this.lbl2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.ForeColor = System.Drawing.Color.White;
-            this.lbl2.Location = new System.Drawing.Point(337, 119);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(256, 50);
-            this.lbl2.TabIndex = 29;
-            this.lbl2.Text = "Square Number";
-            // 
-            // lbl3
-            // 
-            this.lbl3.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.ForeColor = System.Drawing.Color.White;
-            this.lbl3.Location = new System.Drawing.Point(337, 202);
-            this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(256, 50);
-            this.lbl3.TabIndex = 30;
-            this.lbl3.Text = "Square Number";
-            // 
-            // Points_Panel
-            // 
-            this.Points_Panel.Controls.Add(this.Player5_Square);
-            this.Points_Panel.Controls.Add(this.Player4_Square);
-            this.Points_Panel.Controls.Add(this.Player3_Square);
-            this.Points_Panel.Controls.Add(this.Player2_Square);
-            this.Points_Panel.Controls.Add(this.Player1_Square);
-            this.Points_Panel.Controls.Add(this.lbl5);
-            this.Points_Panel.Controls.Add(this.lbl4);
-            this.Points_Panel.Controls.Add(this.Player5_Mark);
-            this.Points_Panel.Controls.Add(this.Player4_Mark);
-            this.Points_Panel.Controls.Add(this.Player5Name);
-            this.Points_Panel.Controls.Add(this.Player4Name);
-            this.Points_Panel.Controls.Add(this.Player3_Mark);
-            this.Points_Panel.Controls.Add(this.Player2_Mark);
-            this.Points_Panel.Controls.Add(this.Player1_Mark);
-            this.Points_Panel.Controls.Add(this.lbl3);
-            this.Points_Panel.Controls.Add(this.lbl2);
-            this.Points_Panel.Controls.Add(this.lbl1);
-            this.Points_Panel.Controls.Add(this.Player3Name);
-            this.Points_Panel.Controls.Add(this.Player2Name);
-            this.Points_Panel.Controls.Add(this.Player1Name);
-            this.Points_Panel.Location = new System.Drawing.Point(1038, 203);
-            this.Points_Panel.Name = "Points_Panel";
-            this.Points_Panel.Size = new System.Drawing.Size(742, 470);
-            this.Points_Panel.TabIndex = 3;
-            // 
-            // Player5_Square
-            // 
-            this.Player5_Square.BackColor = System.Drawing.Color.LimeGreen;
-            this.Player5_Square.Enabled = false;
-            this.Player5_Square.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player5_Square.Location = new System.Drawing.Point(616, 381);
-            this.Player5_Square.Name = "Player5_Square";
-            this.Player5_Square.Size = new System.Drawing.Size(61, 50);
-            this.Player5_Square.TabIndex = 73;
-            this.Player5_Square.Text = "0";
-            this.Player5_Square.UseVisualStyleBackColor = false;
-            // 
-            // Player4_Square
-            // 
-            this.Player4_Square.BackColor = System.Drawing.Color.LimeGreen;
-            this.Player4_Square.Enabled = false;
-            this.Player4_Square.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4_Square.Location = new System.Drawing.Point(616, 291);
-            this.Player4_Square.Name = "Player4_Square";
-            this.Player4_Square.Size = new System.Drawing.Size(61, 50);
-            this.Player4_Square.TabIndex = 72;
-            this.Player4_Square.Text = "0";
-            this.Player4_Square.UseVisualStyleBackColor = false;
-            // 
-            // Player3_Square
-            // 
-            this.Player3_Square.BackColor = System.Drawing.Color.LimeGreen;
-            this.Player3_Square.Enabled = false;
-            this.Player3_Square.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3_Square.Location = new System.Drawing.Point(616, 202);
-            this.Player3_Square.Name = "Player3_Square";
-            this.Player3_Square.Size = new System.Drawing.Size(61, 50);
-            this.Player3_Square.TabIndex = 71;
-            this.Player3_Square.Text = "0";
-            this.Player3_Square.UseVisualStyleBackColor = false;
-            // 
-            // Player2_Square
-            // 
-            this.Player2_Square.BackColor = System.Drawing.Color.LimeGreen;
-            this.Player2_Square.Enabled = false;
-            this.Player2_Square.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2_Square.Location = new System.Drawing.Point(616, 119);
-            this.Player2_Square.Name = "Player2_Square";
-            this.Player2_Square.Size = new System.Drawing.Size(61, 50);
-            this.Player2_Square.TabIndex = 70;
-            this.Player2_Square.Text = "0";
-            this.Player2_Square.UseVisualStyleBackColor = false;
-            // 
-            // Player1_Square
-            // 
-            this.Player1_Square.BackColor = System.Drawing.Color.LimeGreen;
-            this.Player1_Square.Enabled = false;
-            this.Player1_Square.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1_Square.Location = new System.Drawing.Point(616, 36);
-            this.Player1_Square.Name = "Player1_Square";
-            this.Player1_Square.Size = new System.Drawing.Size(61, 50);
-            this.Player1_Square.TabIndex = 69;
-            this.Player1_Square.Text = "0";
-            this.Player1_Square.UseVisualStyleBackColor = false;
+            this.Player5_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player5_Square_Before.Enabled = false;
+            this.Player5_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player5_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player5_Square_Before.Name = "Player5_Square_Before";
+            this.Player5_Square_Before.Size = new System.Drawing.Size(61, 50);
+            this.Player5_Square_Before.TabIndex = 77;
+            this.Player5_Square_Before.UseVisualStyleBackColor = false;
             // 
             // lbl5
             // 
-            this.lbl5.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5.ForeColor = System.Drawing.Color.White;
-            this.lbl5.Location = new System.Drawing.Point(337, 381);
+            this.lbl5.Location = new System.Drawing.Point(324, 10);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(256, 50);
-            this.lbl5.TabIndex = 68;
+            this.lbl5.TabIndex = 76;
             this.lbl5.Text = "Square Number";
-            // 
-            // lbl4
-            // 
-            this.lbl4.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.ForeColor = System.Drawing.Color.White;
-            this.lbl4.Location = new System.Drawing.Point(337, 291);
-            this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(256, 50);
-            this.lbl4.TabIndex = 67;
-            this.lbl4.Text = "Square Number";
+            this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Player5_Mark
             // 
             this.Player5_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player5_Mark.Location = new System.Drawing.Point(244, 381);
+            this.Player5_Mark.Location = new System.Drawing.Point(241, 10);
             this.Player5_Mark.Name = "Player5_Mark";
             this.Player5_Mark.Size = new System.Drawing.Size(61, 50);
             this.Player5_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player5_Mark.TabIndex = 66;
+            this.Player5_Mark.TabIndex = 75;
             this.Player5_Mark.TabStop = false;
+            // 
+            // Player5_Name
+            // 
+            this.Player5_Name.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player5_Name.ForeColor = System.Drawing.Color.White;
+            this.Player5_Name.Location = new System.Drawing.Point(23, 10);
+            this.Player5_Name.Name = "Player5_Name";
+            this.Player5_Name.Size = new System.Drawing.Size(212, 50);
+            this.Player5_Name.TabIndex = 74;
+            this.Player5_Name.Text = "Player5";
+            this.Player5_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Player4_Panel
+            // 
+            this.Player4_Panel.Controls.Add(this.Player4_Square_After);
+            this.Player4_Panel.Controls.Add(this.Player4_Square_Before);
+            this.Player4_Panel.Controls.Add(this.lbl4);
+            this.Player4_Panel.Controls.Add(this.Player4_Mark);
+            this.Player4_Panel.Controls.Add(this.Player4_Name);
+            this.Player4_Panel.Location = new System.Drawing.Point(3, 291);
+            this.Player4_Panel.Name = "Player4_Panel";
+            this.Player4_Panel.Size = new System.Drawing.Size(735, 70);
+            this.Player4_Panel.TabIndex = 6;
+            // 
+            // Player4_Square_After
+            // 
+            this.Player4_Square_After.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player4_Square_After.Enabled = false;
+            this.Player4_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player4_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player4_Square_After.Name = "Player4_Square_After";
+            this.Player4_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player4_Square_After.TabIndex = 77;
+            this.Player4_Square_After.UseVisualStyleBackColor = false;
+            // 
+            // Player4_Square_Before
+            // 
+            this.Player4_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player4_Square_Before.Enabled = false;
+            this.Player4_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player4_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player4_Square_Before.Name = "Player4_Square_Before";
+            this.Player4_Square_Before.Size = new System.Drawing.Size(61, 50);
+            this.Player4_Square_Before.TabIndex = 76;
+            this.Player4_Square_Before.UseVisualStyleBackColor = false;
+            // 
+            // lbl4
+            // 
+            this.lbl4.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4.ForeColor = System.Drawing.Color.White;
+            this.lbl4.Location = new System.Drawing.Point(324, 10);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(256, 50);
+            this.lbl4.TabIndex = 75;
+            this.lbl4.Text = "Square Number";
+            this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Player4_Mark
             // 
             this.Player4_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player4_Mark.Location = new System.Drawing.Point(244, 291);
+            this.Player4_Mark.Location = new System.Drawing.Point(241, 10);
             this.Player4_Mark.Name = "Player4_Mark";
             this.Player4_Mark.Size = new System.Drawing.Size(61, 50);
             this.Player4_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player4_Mark.TabIndex = 65;
+            this.Player4_Mark.TabIndex = 74;
             this.Player4_Mark.TabStop = false;
             // 
-            // Player5Name
+            // Player4_Name
             // 
-            this.Player5Name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player5Name.ForeColor = System.Drawing.Color.White;
-            this.Player5Name.Location = new System.Drawing.Point(26, 381);
-            this.Player5Name.Name = "Player5Name";
-            this.Player5Name.Size = new System.Drawing.Size(212, 50);
-            this.Player5Name.TabIndex = 64;
-            this.Player5Name.Text = "Player5";
+            this.Player4_Name.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player4_Name.ForeColor = System.Drawing.Color.White;
+            this.Player4_Name.Location = new System.Drawing.Point(23, 10);
+            this.Player4_Name.Name = "Player4_Name";
+            this.Player4_Name.Size = new System.Drawing.Size(212, 50);
+            this.Player4_Name.TabIndex = 73;
+            this.Player4_Name.Text = "Player4";
+            this.Player4_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Player4Name
+            // Player3_Panel
             // 
-            this.Player4Name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4Name.ForeColor = System.Drawing.Color.White;
-            this.Player4Name.Location = new System.Drawing.Point(26, 291);
-            this.Player4Name.Name = "Player4Name";
-            this.Player4Name.Size = new System.Drawing.Size(212, 50);
-            this.Player4Name.TabIndex = 63;
-            this.Player4Name.Text = "Player4";
+            this.Player3_Panel.Controls.Add(this.Player3_Square_After);
+            this.Player3_Panel.Controls.Add(this.Player3_Square_Before);
+            this.Player3_Panel.Controls.Add(this.Player3_Mark);
+            this.Player3_Panel.Controls.Add(this.lbl3);
+            this.Player3_Panel.Controls.Add(this.Player3_Name);
+            this.Player3_Panel.Location = new System.Drawing.Point(3, 199);
+            this.Player3_Panel.Name = "Player3_Panel";
+            this.Player3_Panel.Size = new System.Drawing.Size(735, 70);
+            this.Player3_Panel.TabIndex = 6;
+            // 
+            // Player3_Square_After
+            // 
+            this.Player3_Square_After.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player3_Square_After.Enabled = false;
+            this.Player3_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player3_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player3_Square_After.Name = "Player3_Square_After";
+            this.Player3_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player3_Square_After.TabIndex = 76;
+            this.Player3_Square_After.UseVisualStyleBackColor = false;
+            // 
+            // Player3_Square_Before
+            // 
+            this.Player3_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player3_Square_Before.Enabled = false;
+            this.Player3_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player3_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player3_Square_Before.Name = "Player3_Square_Before";
+            this.Player3_Square_Before.Size = new System.Drawing.Size(61, 50);
+            this.Player3_Square_Before.TabIndex = 75;
+            this.Player3_Square_Before.UseVisualStyleBackColor = false;
             // 
             // Player3_Mark
             // 
             this.Player3_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player3_Mark.Location = new System.Drawing.Point(244, 202);
+            this.Player3_Mark.Location = new System.Drawing.Point(241, 10);
             this.Player3_Mark.Name = "Player3_Mark";
             this.Player3_Mark.Size = new System.Drawing.Size(61, 50);
             this.Player3_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player3_Mark.TabIndex = 62;
+            this.Player3_Mark.TabIndex = 74;
             this.Player3_Mark.TabStop = false;
+            // 
+            // lbl3
+            // 
+            this.lbl3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.ForeColor = System.Drawing.Color.White;
+            this.lbl3.Location = new System.Drawing.Point(324, 10);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(256, 50);
+            this.lbl3.TabIndex = 73;
+            this.lbl3.Text = "Square Number";
+            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Player3_Name
+            // 
+            this.Player3_Name.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player3_Name.ForeColor = System.Drawing.Color.White;
+            this.Player3_Name.Location = new System.Drawing.Point(23, 10);
+            this.Player3_Name.Name = "Player3_Name";
+            this.Player3_Name.Size = new System.Drawing.Size(212, 50);
+            this.Player3_Name.TabIndex = 72;
+            this.Player3_Name.Text = "Player3";
+            this.Player3_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Player2_Panel
+            // 
+            this.Player2_Panel.Controls.Add(this.Player2_Square_After);
+            this.Player2_Panel.Controls.Add(this.Player2_Square_Before);
+            this.Player2_Panel.Controls.Add(this.Player2_Mark);
+            this.Player2_Panel.Controls.Add(this.lbl2);
+            this.Player2_Panel.Controls.Add(this.Player2_Name);
+            this.Player2_Panel.Location = new System.Drawing.Point(3, 110);
+            this.Player2_Panel.Name = "Player2_Panel";
+            this.Player2_Panel.Size = new System.Drawing.Size(735, 70);
+            this.Player2_Panel.TabIndex = 6;
+            // 
+            // Player2_Square_After
+            // 
+            this.Player2_Square_After.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player2_Square_After.Enabled = false;
+            this.Player2_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player2_Square_After.Name = "Player2_Square_After";
+            this.Player2_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player2_Square_After.TabIndex = 75;
+            this.Player2_Square_After.UseVisualStyleBackColor = false;
+            // 
+            // Player2_Square_Before
+            // 
+            this.Player2_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player2_Square_Before.Enabled = false;
+            this.Player2_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player2_Square_Before.Name = "Player2_Square_Before";
+            this.Player2_Square_Before.Size = new System.Drawing.Size(61, 50);
+            this.Player2_Square_Before.TabIndex = 74;
+            this.Player2_Square_Before.UseVisualStyleBackColor = false;
             // 
             // Player2_Mark
             // 
             this.Player2_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player2_Mark.Location = new System.Drawing.Point(244, 119);
+            this.Player2_Mark.Location = new System.Drawing.Point(241, 10);
             this.Player2_Mark.Name = "Player2_Mark";
             this.Player2_Mark.Size = new System.Drawing.Size(61, 50);
             this.Player2_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player2_Mark.TabIndex = 61;
+            this.Player2_Mark.TabIndex = 73;
             this.Player2_Mark.TabStop = false;
+            // 
+            // lbl2
+            // 
+            this.lbl2.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.ForeColor = System.Drawing.Color.White;
+            this.lbl2.Location = new System.Drawing.Point(324, 10);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(256, 50);
+            this.lbl2.TabIndex = 72;
+            this.lbl2.Text = "Square Number";
+            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Player2_Name
+            // 
+            this.Player2_Name.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2_Name.ForeColor = System.Drawing.Color.White;
+            this.Player2_Name.Location = new System.Drawing.Point(23, 10);
+            this.Player2_Name.Name = "Player2_Name";
+            this.Player2_Name.Size = new System.Drawing.Size(212, 50);
+            this.Player2_Name.TabIndex = 71;
+            this.Player2_Name.Text = "Player2";
+            this.Player2_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Player1_Panel
+            // 
+            this.Player1_Panel.Controls.Add(this.Player1_Square_After);
+            this.Player1_Panel.Controls.Add(this.Player1_Square_Before);
+            this.Player1_Panel.Controls.Add(this.Player1_Mark);
+            this.Player1_Panel.Controls.Add(this.lbl1);
+            this.Player1_Panel.Controls.Add(this.Player1_Name);
+            this.Player1_Panel.Location = new System.Drawing.Point(3, 18);
+            this.Player1_Panel.Name = "Player1_Panel";
+            this.Player1_Panel.Size = new System.Drawing.Size(736, 70);
+            this.Player1_Panel.TabIndex = 6;
+            // 
+            // Player1_Square_After
+            // 
+            this.Player1_Square_After.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player1_Square_After.Enabled = false;
+            this.Player1_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1_Square_After.Location = new System.Drawing.Point(672, 11);
+            this.Player1_Square_After.Name = "Player1_Square_After";
+            this.Player1_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player1_Square_After.TabIndex = 74;
+            this.Player1_Square_After.UseVisualStyleBackColor = false;
+            // 
+            // Player1_Square_Before
+            // 
+            this.Player1_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
+            this.Player1_Square_Before.Enabled = false;
+            this.Player1_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1_Square_Before.Location = new System.Drawing.Point(586, 11);
+            this.Player1_Square_Before.Name = "Player1_Square_Before";
+            this.Player1_Square_Before.Size = new System.Drawing.Size(61, 50);
+            this.Player1_Square_Before.TabIndex = 73;
+            this.Player1_Square_Before.UseVisualStyleBackColor = false;
             // 
             // Player1_Mark
             // 
             this.Player1_Mark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Player1_Mark.Location = new System.Drawing.Point(244, 36);
+            this.Player1_Mark.Location = new System.Drawing.Point(241, 11);
             this.Player1_Mark.Name = "Player1_Mark";
             this.Player1_Mark.Size = new System.Drawing.Size(61, 50);
             this.Player1_Mark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player1_Mark.TabIndex = 60;
+            this.Player1_Mark.TabIndex = 72;
             this.Player1_Mark.TabStop = false;
             // 
-            // Dice
+            // lbl1
             // 
-            this.Dice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Dice.Location = new System.Drawing.Point(74, 33);
-            this.Dice.Name = "Dice";
-            this.Dice.Size = new System.Drawing.Size(106, 85);
-            this.Dice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Dice.TabIndex = 74;
-            this.Dice.TabStop = false;
+            this.lbl1.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.ForeColor = System.Drawing.Color.White;
+            this.lbl1.Location = new System.Drawing.Point(324, 11);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(256, 50);
+            this.lbl1.TabIndex = 71;
+            this.lbl1.Text = "Square Number";
+            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Player1_Name
+            // 
+            this.Player1_Name.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1_Name.ForeColor = System.Drawing.Color.White;
+            this.Player1_Name.Location = new System.Drawing.Point(23, 11);
+            this.Player1_Name.Name = "Player1_Name";
+            this.Player1_Name.Size = new System.Drawing.Size(212, 50);
+            this.Player1_Name.TabIndex = 70;
+            this.Player1_Name.Text = "Player1";
+            this.Player1_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // GameBoard
+            // 
+            this.GameBoard.Image = global::Snakes_and_Ladders.Properties.Resources.Snake_and_Ladders_Game_Board;
+            this.GameBoard.Location = new System.Drawing.Point(40, 45);
+            this.GameBoard.Name = "GameBoard";
+            this.GameBoard.Size = new System.Drawing.Size(971, 890);
+            this.GameBoard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GameBoard.TabIndex = 2;
+            this.GameBoard.TabStop = false;
             // 
             // Game_Page
             // 
@@ -414,7 +542,7 @@
             this.ClientSize = new System.Drawing.Size(1832, 973);
             this.Controls.Add(this.Buttons_Panel);
             this.Controls.Add(this.Dice_Panel);
-            this.Controls.Add(this.Points_Panel);
+            this.Controls.Add(this.Squares_Panel);
             this.Controls.Add(this.GameBoard);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -424,16 +552,22 @@
             this.Text = "Game_Page";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Game_Page_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).EndInit();
+            this.Load += new System.EventHandler(this.Game_Page_Load);
             this.Dice_Panel.ResumeLayout(false);
-            this.Buttons_Panel.ResumeLayout(false);
-            this.Points_Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dice)).EndInit();
+            this.Buttons_Panel.ResumeLayout(false);
+            this.Squares_Panel.ResumeLayout(false);
+            this.Player5_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player5_Mark)).EndInit();
+            this.Player4_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player4_Mark)).EndInit();
+            this.Player3_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player3_Mark)).EndInit();
+            this.Player2_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player2_Mark)).EndInit();
+            this.Player1_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player1_Mark)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -444,30 +578,40 @@
         private System.Windows.Forms.Panel Buttons_Panel;
         private System.Windows.Forms.Button New;
         private System.Windows.Forms.Button Summary;
-        private System.Windows.Forms.Button Close;
-        private System.Windows.Forms.Label Player1Name;
-        private System.Windows.Forms.Label Player2Name;
-        private System.Windows.Forms.Label Player3Name;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Label lbl3;
+        private new System.Windows.Forms.Button Close;
         private System.Windows.Forms.Label lbl_Player_Turn;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Panel Points_Panel;
-        private System.Windows.Forms.Label Player5Name;
-        private System.Windows.Forms.Label Player4Name;
-        private System.Windows.Forms.PictureBox Player3_Mark;
-        private System.Windows.Forms.PictureBox Player2_Mark;
-        private System.Windows.Forms.PictureBox Player1_Mark;
-        private System.Windows.Forms.PictureBox Player5_Mark;
-        private System.Windows.Forms.PictureBox Player4_Mark;
-        private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.Label lbl4;
-        private System.Windows.Forms.Button Player5_Square;
-        private System.Windows.Forms.Button Player4_Square;
-        private System.Windows.Forms.Button Player3_Square;
-        private System.Windows.Forms.Button Player2_Square;
-        private System.Windows.Forms.Button Player1_Square;
+        private System.Windows.Forms.Panel Squares_Panel;
         private System.Windows.Forms.Button btn_Rolling;
         private System.Windows.Forms.PictureBox Dice;
+        private System.Windows.Forms.Panel Player1_Panel;
+        private System.Windows.Forms.Button Player1_Square_Before;
+        private System.Windows.Forms.PictureBox Player1_Mark;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label Player1_Name;
+        private System.Windows.Forms.Panel Player2_Panel;
+        private System.Windows.Forms.Panel Player5_Panel;
+        private System.Windows.Forms.Button Player5_Square_Before;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.PictureBox Player5_Mark;
+        private System.Windows.Forms.Label Player5_Name;
+        private System.Windows.Forms.Panel Player4_Panel;
+        private System.Windows.Forms.Button Player4_Square_Before;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.PictureBox Player4_Mark;
+        private System.Windows.Forms.Label Player4_Name;
+        private System.Windows.Forms.Panel Player3_Panel;
+        private System.Windows.Forms.Button Player3_Square_Before;
+        private System.Windows.Forms.PictureBox Player3_Mark;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label Player3_Name;
+        private System.Windows.Forms.Button Player2_Square_Before;
+        private System.Windows.Forms.PictureBox Player2_Mark;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label Player2_Name;
+        private System.Windows.Forms.Button Player5_Square_After;
+        private System.Windows.Forms.Button Player4_Square_After;
+        private System.Windows.Forms.Button Player3_Square_After;
+        private System.Windows.Forms.Button Player2_Square_After;
+        private System.Windows.Forms.Button Player1_Square_After;
     }
 }

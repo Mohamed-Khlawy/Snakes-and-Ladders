@@ -122,5 +122,26 @@
   <ItemGroup>
     <None Include="Resources\Snake and Ladders Game Board.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rolling Dice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 1 Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 2 Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 3 Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 4 Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 5 Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice 6 Face.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

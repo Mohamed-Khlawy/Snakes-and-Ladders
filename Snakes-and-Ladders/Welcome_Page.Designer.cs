@@ -813,7 +813,7 @@
         private System.Windows.Forms.RadioButton ThreePlayers;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button Close;
+        private new System.Windows.Forms.Button Close;
         private System.Windows.Forms.Button Start;
         private System.Windows.Forms.Panel NamesAndMarks_Panel;
         private System.Windows.Forms.Label label8;

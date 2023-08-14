@@ -248,7 +248,7 @@ namespace Snakes_and_Ladders
 
         private void Start_Click(object sender, EventArgs e)
         {
-            Game_Page game_Page = new Game_Page();
+            Game_Page game_Page = new Game_Page(pictureBoxList, playerNamesList, numberOfPlayers);
             game_Page.Show();
             this.Hide();
         }
