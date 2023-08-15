@@ -38,6 +38,8 @@
             this.Summary = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
             this.Squares_Panel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.Player5_Panel = new System.Windows.Forms.Panel();
             this.Player5_Square_After = new System.Windows.Forms.Button();
             this.Player5_Square_Before = new System.Windows.Forms.Button();
@@ -99,6 +101,7 @@
             // Dice
             // 
             this.Dice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Dice.Image = global::Snakes_and_Ladders.Properties.Resources.Rolling_Dice;
             this.Dice.Location = new System.Drawing.Point(74, 33);
             this.Dice.Name = "Dice";
             this.Dice.Size = new System.Drawing.Size(106, 85);
@@ -117,8 +120,7 @@
             this.btn_Rolling.TabIndex = 35;
             this.btn_Rolling.Text = "Roll The Dice";
             this.btn_Rolling.UseVisualStyleBackColor = false;
-            this.btn_Rolling.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
-            this.btn_Rolling.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
+            this.btn_Rolling.Click += new System.EventHandler(this.btn_Rolling_Click);
             // 
             // lbl_Player_Turn
             // 
@@ -135,9 +137,9 @@
             this.Buttons_Panel.Controls.Add(this.New);
             this.Buttons_Panel.Controls.Add(this.Summary);
             this.Buttons_Panel.Controls.Add(this.Close);
-            this.Buttons_Panel.Location = new System.Drawing.Point(1038, 689);
+            this.Buttons_Panel.Location = new System.Drawing.Point(1038, 706);
             this.Buttons_Panel.Name = "Buttons_Panel";
-            this.Buttons_Panel.Size = new System.Drawing.Size(742, 246);
+            this.Buttons_Panel.Size = new System.Drawing.Size(742, 229);
             this.Buttons_Panel.TabIndex = 5;
             // 
             // New
@@ -145,9 +147,9 @@
             this.New.BackColor = System.Drawing.Color.LimeGreen;
             this.New.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New.ForeColor = System.Drawing.Color.White;
-            this.New.Location = new System.Drawing.Point(242, 21);
+            this.New.Location = new System.Drawing.Point(260, 41);
             this.New.Name = "New";
-            this.New.Size = new System.Drawing.Size(250, 92);
+            this.New.Size = new System.Drawing.Size(230, 80);
             this.New.TabIndex = 34;
             this.New.Text = "New Game";
             this.New.UseVisualStyleBackColor = false;
@@ -161,7 +163,7 @@
             this.Summary.ForeColor = System.Drawing.Color.White;
             this.Summary.Location = new System.Drawing.Point(20, 140);
             this.Summary.Name = "Summary";
-            this.Summary.Size = new System.Drawing.Size(250, 92);
+            this.Summary.Size = new System.Drawing.Size(230, 80);
             this.Summary.TabIndex = 32;
             this.Summary.Text = "Game Summary";
             this.Summary.UseVisualStyleBackColor = false;
@@ -173,9 +175,9 @@
             this.Close.BackColor = System.Drawing.Color.LimeGreen;
             this.Close.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Close.ForeColor = System.Drawing.Color.White;
-            this.Close.Location = new System.Drawing.Point(471, 140);
+            this.Close.Location = new System.Drawing.Point(496, 140);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(250, 92);
+            this.Close.Size = new System.Drawing.Size(230, 80);
             this.Close.TabIndex = 31;
             this.Close.Text = "Close Game";
             this.Close.UseVisualStyleBackColor = false;
@@ -184,6 +186,8 @@
             // 
             // Squares_Panel
             // 
+            this.Squares_Panel.Controls.Add(this.label2);
+            this.Squares_Panel.Controls.Add(this.label1);
             this.Squares_Panel.Controls.Add(this.Player5_Panel);
             this.Squares_Panel.Controls.Add(this.Player4_Panel);
             this.Squares_Panel.Controls.Add(this.Player3_Panel);
@@ -191,8 +195,30 @@
             this.Squares_Panel.Controls.Add(this.Player1_Panel);
             this.Squares_Panel.Location = new System.Drawing.Point(1038, 203);
             this.Squares_Panel.Name = "Squares_Panel";
-            this.Squares_Panel.Size = new System.Drawing.Size(742, 470);
+            this.Squares_Panel.Size = new System.Drawing.Size(742, 497);
             this.Squares_Panel.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(669, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 42);
+            this.label2.TabIndex = 76;
+            this.label2.Text = "Now";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(585, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 35);
+            this.label1.TabIndex = 75;
+            this.label1.Text = "Before";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Player5_Panel
             // 
@@ -201,7 +227,7 @@
             this.Player5_Panel.Controls.Add(this.lbl5);
             this.Player5_Panel.Controls.Add(this.Player5_Mark);
             this.Player5_Panel.Controls.Add(this.Player5_Name);
-            this.Player5_Panel.Location = new System.Drawing.Point(3, 383);
+            this.Player5_Panel.Location = new System.Drawing.Point(3, 415);
             this.Player5_Panel.Name = "Player5_Panel";
             this.Player5_Panel.Size = new System.Drawing.Size(735, 70);
             this.Player5_Panel.TabIndex = 6;
@@ -267,7 +293,7 @@
             this.Player4_Panel.Controls.Add(this.lbl4);
             this.Player4_Panel.Controls.Add(this.Player4_Mark);
             this.Player4_Panel.Controls.Add(this.Player4_Name);
-            this.Player4_Panel.Location = new System.Drawing.Point(3, 291);
+            this.Player4_Panel.Location = new System.Drawing.Point(3, 323);
             this.Player4_Panel.Name = "Player4_Panel";
             this.Player4_Panel.Size = new System.Drawing.Size(735, 70);
             this.Player4_Panel.TabIndex = 6;
@@ -333,7 +359,7 @@
             this.Player3_Panel.Controls.Add(this.Player3_Mark);
             this.Player3_Panel.Controls.Add(this.lbl3);
             this.Player3_Panel.Controls.Add(this.Player3_Name);
-            this.Player3_Panel.Location = new System.Drawing.Point(3, 199);
+            this.Player3_Panel.Location = new System.Drawing.Point(3, 231);
             this.Player3_Panel.Name = "Player3_Panel";
             this.Player3_Panel.Size = new System.Drawing.Size(735, 70);
             this.Player3_Panel.TabIndex = 6;
@@ -399,7 +425,7 @@
             this.Player2_Panel.Controls.Add(this.Player2_Mark);
             this.Player2_Panel.Controls.Add(this.lbl2);
             this.Player2_Panel.Controls.Add(this.Player2_Name);
-            this.Player2_Panel.Location = new System.Drawing.Point(3, 110);
+            this.Player2_Panel.Location = new System.Drawing.Point(3, 142);
             this.Player2_Panel.Name = "Player2_Panel";
             this.Player2_Panel.Size = new System.Drawing.Size(735, 70);
             this.Player2_Panel.TabIndex = 6;
@@ -465,7 +491,7 @@
             this.Player1_Panel.Controls.Add(this.Player1_Mark);
             this.Player1_Panel.Controls.Add(this.lbl1);
             this.Player1_Panel.Controls.Add(this.Player1_Name);
-            this.Player1_Panel.Location = new System.Drawing.Point(3, 18);
+            this.Player1_Panel.Location = new System.Drawing.Point(3, 50);
             this.Player1_Panel.Name = "Player1_Panel";
             this.Player1_Panel.Size = new System.Drawing.Size(736, 70);
             this.Player1_Panel.TabIndex = 6;
@@ -613,5 +639,7 @@
         private System.Windows.Forms.Button Player3_Square_After;
         private System.Windows.Forms.Button Player2_Square_After;
         private System.Windows.Forms.Button Player1_Square_After;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
