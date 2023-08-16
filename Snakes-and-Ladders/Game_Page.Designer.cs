@@ -121,6 +121,8 @@
             this.btn_Rolling.Text = "Roll The Dice";
             this.btn_Rolling.UseVisualStyleBackColor = false;
             this.btn_Rolling.Click += new System.EventHandler(this.btn_Rolling_Click);
+            this.btn_Rolling.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
+            this.btn_Rolling.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
             // lbl_Player_Turn
             // 
@@ -153,6 +155,7 @@
             this.New.TabIndex = 34;
             this.New.Text = "New Game";
             this.New.UseVisualStyleBackColor = false;
+            this.New.Click += new System.EventHandler(this.New_Click);
             this.New.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
             this.New.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
@@ -167,6 +170,7 @@
             this.Summary.TabIndex = 32;
             this.Summary.Text = "Game Summary";
             this.Summary.UseVisualStyleBackColor = false;
+            this.Summary.Click += new System.EventHandler(this.Summary_Click);
             this.Summary.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
             this.Summary.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
@@ -181,6 +185,7 @@
             this.Close.TabIndex = 31;
             this.Close.Text = "Close Game";
             this.Close.UseVisualStyleBackColor = false;
+            this.Close.Click += new System.EventHandler(this.Close_Click);
             this.Close.MouseEnter += new System.EventHandler(this.Btn_MouseEnter);
             this.Close.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
             // 
@@ -202,7 +207,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(669, 4);
+            this.label2.Location = new System.Drawing.Point(665, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 42);
             this.label2.TabIndex = 76;
@@ -213,7 +218,7 @@
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(585, 8);
+            this.label1.Location = new System.Drawing.Point(566, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 35);
             this.label1.TabIndex = 75;
@@ -237,9 +242,9 @@
             this.Player5_Square_After.BackColor = System.Drawing.Color.LimeGreen;
             this.Player5_Square_After.Enabled = false;
             this.Player5_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player5_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player5_Square_After.Location = new System.Drawing.Point(658, 10);
             this.Player5_Square_After.Name = "Player5_Square_After";
-            this.Player5_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player5_Square_After.Size = new System.Drawing.Size(74, 50);
             this.Player5_Square_After.TabIndex = 78;
             this.Player5_Square_After.UseVisualStyleBackColor = false;
             // 
@@ -248,7 +253,7 @@
             this.Player5_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
             this.Player5_Square_Before.Enabled = false;
             this.Player5_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player5_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player5_Square_Before.Location = new System.Drawing.Point(567, 10);
             this.Player5_Square_Before.Name = "Player5_Square_Before";
             this.Player5_Square_Before.Size = new System.Drawing.Size(61, 50);
             this.Player5_Square_Before.TabIndex = 77;
@@ -260,7 +265,7 @@
             this.lbl5.ForeColor = System.Drawing.Color.White;
             this.lbl5.Location = new System.Drawing.Point(324, 10);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(256, 50);
+            this.lbl5.Size = new System.Drawing.Size(237, 50);
             this.lbl5.TabIndex = 76;
             this.lbl5.Text = "Square Number";
             this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -303,9 +308,9 @@
             this.Player4_Square_After.BackColor = System.Drawing.Color.LimeGreen;
             this.Player4_Square_After.Enabled = false;
             this.Player4_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player4_Square_After.Location = new System.Drawing.Point(658, 10);
             this.Player4_Square_After.Name = "Player4_Square_After";
-            this.Player4_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player4_Square_After.Size = new System.Drawing.Size(74, 50);
             this.Player4_Square_After.TabIndex = 77;
             this.Player4_Square_After.UseVisualStyleBackColor = false;
             // 
@@ -314,7 +319,7 @@
             this.Player4_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
             this.Player4_Square_Before.Enabled = false;
             this.Player4_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player4_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player4_Square_Before.Location = new System.Drawing.Point(567, 10);
             this.Player4_Square_Before.Name = "Player4_Square_Before";
             this.Player4_Square_Before.Size = new System.Drawing.Size(61, 50);
             this.Player4_Square_Before.TabIndex = 76;
@@ -326,7 +331,7 @@
             this.lbl4.ForeColor = System.Drawing.Color.White;
             this.lbl4.Location = new System.Drawing.Point(324, 10);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(256, 50);
+            this.lbl4.Size = new System.Drawing.Size(237, 50);
             this.lbl4.TabIndex = 75;
             this.lbl4.Text = "Square Number";
             this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -369,9 +374,9 @@
             this.Player3_Square_After.BackColor = System.Drawing.Color.LimeGreen;
             this.Player3_Square_After.Enabled = false;
             this.Player3_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player3_Square_After.Location = new System.Drawing.Point(658, 10);
             this.Player3_Square_After.Name = "Player3_Square_After";
-            this.Player3_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player3_Square_After.Size = new System.Drawing.Size(74, 50);
             this.Player3_Square_After.TabIndex = 76;
             this.Player3_Square_After.UseVisualStyleBackColor = false;
             // 
@@ -380,7 +385,7 @@
             this.Player3_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
             this.Player3_Square_Before.Enabled = false;
             this.Player3_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player3_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player3_Square_Before.Location = new System.Drawing.Point(567, 10);
             this.Player3_Square_Before.Name = "Player3_Square_Before";
             this.Player3_Square_Before.Size = new System.Drawing.Size(61, 50);
             this.Player3_Square_Before.TabIndex = 75;
@@ -400,9 +405,9 @@
             // 
             this.lbl3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.ForeColor = System.Drawing.Color.White;
-            this.lbl3.Location = new System.Drawing.Point(324, 10);
+            this.lbl3.Location = new System.Drawing.Point(324, 9);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(256, 50);
+            this.lbl3.Size = new System.Drawing.Size(237, 50);
             this.lbl3.TabIndex = 73;
             this.lbl3.Text = "Square Number";
             this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -435,9 +440,9 @@
             this.Player2_Square_After.BackColor = System.Drawing.Color.LimeGreen;
             this.Player2_Square_After.Enabled = false;
             this.Player2_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2_Square_After.Location = new System.Drawing.Point(671, 10);
+            this.Player2_Square_After.Location = new System.Drawing.Point(658, 10);
             this.Player2_Square_After.Name = "Player2_Square_After";
-            this.Player2_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player2_Square_After.Size = new System.Drawing.Size(74, 50);
             this.Player2_Square_After.TabIndex = 75;
             this.Player2_Square_After.UseVisualStyleBackColor = false;
             // 
@@ -446,7 +451,7 @@
             this.Player2_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
             this.Player2_Square_Before.Enabled = false;
             this.Player2_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player2_Square_Before.Location = new System.Drawing.Point(586, 10);
+            this.Player2_Square_Before.Location = new System.Drawing.Point(567, 11);
             this.Player2_Square_Before.Name = "Player2_Square_Before";
             this.Player2_Square_Before.Size = new System.Drawing.Size(61, 50);
             this.Player2_Square_Before.TabIndex = 74;
@@ -466,9 +471,9 @@
             // 
             this.lbl2.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.ForeColor = System.Drawing.Color.White;
-            this.lbl2.Location = new System.Drawing.Point(324, 10);
+            this.lbl2.Location = new System.Drawing.Point(324, 11);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(256, 50);
+            this.lbl2.Size = new System.Drawing.Size(237, 50);
             this.lbl2.TabIndex = 72;
             this.lbl2.Text = "Square Number";
             this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -501,9 +506,9 @@
             this.Player1_Square_After.BackColor = System.Drawing.Color.LimeGreen;
             this.Player1_Square_After.Enabled = false;
             this.Player1_Square_After.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1_Square_After.Location = new System.Drawing.Point(672, 11);
+            this.Player1_Square_After.Location = new System.Drawing.Point(658, 11);
             this.Player1_Square_After.Name = "Player1_Square_After";
-            this.Player1_Square_After.Size = new System.Drawing.Size(61, 50);
+            this.Player1_Square_After.Size = new System.Drawing.Size(75, 50);
             this.Player1_Square_After.TabIndex = 74;
             this.Player1_Square_After.UseVisualStyleBackColor = false;
             // 
@@ -512,7 +517,7 @@
             this.Player1_Square_Before.BackColor = System.Drawing.Color.LimeGreen;
             this.Player1_Square_Before.Enabled = false;
             this.Player1_Square_Before.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1_Square_Before.Location = new System.Drawing.Point(586, 11);
+            this.Player1_Square_Before.Location = new System.Drawing.Point(567, 12);
             this.Player1_Square_Before.Name = "Player1_Square_Before";
             this.Player1_Square_Before.Size = new System.Drawing.Size(61, 50);
             this.Player1_Square_Before.TabIndex = 73;
@@ -534,7 +539,7 @@
             this.lbl1.ForeColor = System.Drawing.Color.White;
             this.lbl1.Location = new System.Drawing.Point(324, 11);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(256, 50);
+            this.lbl1.Size = new System.Drawing.Size(237, 50);
             this.lbl1.TabIndex = 71;
             this.lbl1.Text = "Square Number";
             this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
