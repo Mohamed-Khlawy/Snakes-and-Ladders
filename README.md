@@ -22,7 +22,7 @@ Welcome to the Snakes-and-Ladders Game! This classic board game allows you to ha
 
 ## Getting Started
 
-To get started with the Match The Card Game, follow these steps:
+To get started with the Snakes-and-Ladders Game, follow these steps:
 
 1. Clone this repository 
 2. Open Setup_Snakes-and-Ladders Folder
