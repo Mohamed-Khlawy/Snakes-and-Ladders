@@ -5,16 +5,20 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snakes-and-Ladders", "Snakes-and-Ladders\Snakes-and-Ladders.csproj", "{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_Snakes-and-Ladders", "Setup_Snakes-and-Ladders\Setup_Snakes-and-Ladders.vdproj", "{D814556D-80CD-47B1-95FA-AF489DFF95E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2EA58B-8E50-42C4-A5A6-B402E2092E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D814556D-80CD-47B1-95FA-AF489DFF95E9}.Debug|Any CPU.ActiveCfg = Debug
+		{D814556D-80CD-47B1-95FA-AF489DFF95E9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

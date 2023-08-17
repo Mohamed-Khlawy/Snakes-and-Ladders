@@ -1,0 +1,13 @@
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\bin\Release\Snakes-and-Ladders.exe.config
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\bin\Release\Snakes-and-Ladders.exe
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\bin\Release\Snakes-and-Ladders.pdb
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.csproj.AssemblyReference.cache
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.csproj.SuggestedBindingRedirects.cache
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes_and_Ladders.Game_Page.resources
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes_and_Ladders.Welcome_Page.resources
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes_and_Ladders.Properties.Resources.resources
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes_and_Ladders.Welcome_Image.resources
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.csproj.GenerateResource.cache
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.csproj.CoreCompileInputs.cache
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.exe
+G:\.NET\Projects\Snakes-and-Ladders\Snakes-and-Ladders\obj\Release\Snakes-and-Ladders.pdb
